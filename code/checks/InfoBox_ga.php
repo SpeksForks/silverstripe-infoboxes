@@ -10,7 +10,7 @@ class InfoBox_ga implements InfoBox {
 				return true;
 			}
 		}
-		
+
 		return false;
 	}
 

@@ -1,5 +1,5 @@
-language: php 
-php: 
+language: php
+php:
   - 5.4
 
 env:
@@ -12,5 +12,5 @@ before_script:
   - php ~/travis-support/travis_setup.php --source `pwd` --target ~/builds/ss
   - cd ~/builds/ss
 
-script: 
+script:
   - phpunit infoboxes/tests/

@@ -30,9 +30,9 @@ class InfoBoxesTest extends SapphireTest {
 
 		$returned = $method->invoke($checks, $testConf);
 		$expected = array(
-			'Data' => "[[0, 'Dev Mode', 'http://google.co.uk/']," . 
-			" [1, 'Default Password', ''], " . 
-			"[2, '&lt;style&gt;.devcheck { font-size: 18px; }&lt;/style&gt;&lt;strong&gt;&#039;HTML&#039; &quot;Test&quot;&lt;/strong&gt;', " . 
+			'Data' => "[[0, 'Dev Mode', 'http://google.co.uk/']," .
+			" [1, 'Default Password', ''], " .
+			"[2, '&lt;style&gt;.devcheck { font-size: 18px; }&lt;/style&gt;&lt;strong&gt;&#039;HTML&#039; &quot;Test&quot;&lt;/strong&gt;', " .
 			"'&quot;&gt;&lt;script&gt;alert(&#039;ok&#039;);&lt;/script&gt;&lt;a href=&quot;#']]"
 		);
 
